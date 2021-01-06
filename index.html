@@ -11,17 +11,16 @@
 	<div class="head">
                 <h3>LOG IN BY DASUCCESS</h3>
             <div class="wrapper">
-                <form>
+                <div id="error"></div>
+                <form id="form" action="/" method="GET">
                     <div class="">
                       <label><b>Username</b></label> <div class="space"></div>
-                      <input id="pad" type="text" placeholder="Enter Username" name="username" required> <br> <div class="space lg"></div>
+                      <input id="name" class="pad" type="text" placeholder="Enter Username" name="username" required> <br> <div class="space lg"></div>
                   
                       <label><b>Password</b></label>  <div class="space"></div>
-                      <input id="pad" type="password" placeholder="Enter Password" name="password" required> <br>  <div class="space lg"></div>
+                      <input id="password" class="pad" type="password" placeholder="Enter Password" name="password" required> <br>  <div class="space lg"></div>
                   <div class="btnsubmit">
                       <button type="submit" class="signin stretch">Login</button>
-                      <div class="" >
-                      <button type="button" class="signin danger">Cancel</button> <br>
                       </div>
                  </div>
                 <div id="forgetpsw" >
@@ -33,5 +32,6 @@
                    
                   </form>
             </div>
+            <script src="js/formvalidation.js"></script>
 </body>
 </html>

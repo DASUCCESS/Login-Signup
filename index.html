@@ -10,28 +10,26 @@
     <div class="bgimg"></div>
 	<div class="head">
                 <h3>LOG IN BY DASUCCESS</h3>
+                <div id="errormsg"></div>
             <div class="wrapper">
-                <div id="error"></div>
-                <form id="form" action="/" method="GET">
-                    <div class="">
-                      <label><b>Username</b></label> <div class="space"></div>
-                      <input id="name" class="pad" type="text" placeholder="Enter Username" name="username" required> <br> <div class="space lg"></div>
-                  
-                      <label><b>Password</b></label>  <div class="space"></div>
-                      <input id="password" class="pad" type="password" placeholder="Enter Password" name="password" required> <br>  <div class="space lg"></div>
-                  <div class="btnsubmit">
-                      <button type="submit" class="signin stretch">Login</button>
-                      </div>
-                 </div>
-                <div id="forgetpsw" >
-                 <span class="forgetpsw">Dont have an account? <a href="register.html"> <b> Register </b></a></span> <br> <div class="space lg"></div>
-                 <span class="forgetpsw">Forgotten your password? <a href="#"> <b>Recover Password? </b></a></span> <br>
-                </div> 
-            </div>
-                  
-                   
-                  </form>
-            </div>
+                <form id="form" action="/" method="get">
+                    <div>
+                        <label><b>Username</b></label> <div class="space"></div>
+                        <input id="username" class="pad" type="text" placeholder="Enter Username" name="username" > <br> <div class="space lg"></div>
+                    </div>
+                    <div>
+                        <label><b>Password</b></label>  <div class="space"></div>
+                        <input id="password" class="pad" type="password" placeholder="Enter Password" name="password" > <br>  <div class="space lg"></div>
+                    </div>
+                    <div class="btnsubmit">
+                        <button type="submit" class="signin stretch">Login</button>
+                    </div>
+                    <div id="forgetpsw" >
+                        <span class="forgetpsw">Dont have an account? <a href="register.html"> <b> Register </b></a></span> <br> <div class="space lg"></div>
+                        <span class="forgetpsw">Forgotten your password? <a href="#"> <b>Recover Password? </b></a></span> <br>
+                    </div> 
+                </form>                       
+    </div>
             <script src="js/formvalidation.js"></script>
 </body>
 </html>
